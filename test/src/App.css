@@ -9,7 +9,7 @@
 
 .app_header {
   background-color: white;
-  padding: 20px;
+  padding: 5px;
   border-bottom: 1px solid lightgrey;
   object-fit: contain;
   display: flex;
@@ -17,5 +17,7 @@
 }
 
 .app_headerImage {
+  width: 90px;
   object-fit: contain;
 }
+
