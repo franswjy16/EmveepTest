@@ -3,7 +3,7 @@ import Post from './Post';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <div className="app_header">
         <img
         className="app_headerImage"
@@ -12,9 +12,7 @@ function App() {
         />
       </div>
 
-
-      <Post />
-
+      <Post username="Hana" caption="Feeling Good with The Sun" imageUrl="https://expertphotography.b-cdn.net/wp-content/uploads/2018/10/cool-profile-pictures-retouching-1.jpg"/>
       
     </div>
   );
