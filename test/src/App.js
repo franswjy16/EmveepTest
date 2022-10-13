@@ -10,8 +10,16 @@ function App() {
         src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
         alt=""
         />
+
+        <div>
+          <button onClick> Login </button>
+          <button onClick> Sign Up </button>
+        </div>
+
       </div>
 
+      
+     
       <Post username="Hana" caption="Feeling Good with The Sun" imageUrl="https://expertphotography.b-cdn.net/wp-content/uploads/2018/10/cool-profile-pictures-retouching-1.jpg"/>
       <Post username="Maul" caption="XXX" imageUrl=""/>
       
