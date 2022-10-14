@@ -1,23 +1,15 @@
 import React from 'react'; 
-import './Post.css';
-import Avatar from "@material-ui/core/Avatar";
+import Stories from "./Stories";
+import Feeds from './Feeds';
 
-function Post({ username, caption, imageUrl }) {
+function Post() {
   return (
-    <div className="post">
-      <div className="post_header">
-        <Avatar
-          className="post_avatar"
-          alt='Hana'
-          src="/static/images/avatar/1.jpg"
-        />
-        <h3>{username}</h3>
-      </div>
-
-      <img className="post_image" src="https://expertphotography.b-cdn.net/wp-content/uploads/2018/10/cool-profile-pictures-retouching-1.jpg" alt=""/>
-
-      <h4 className="post_text"><strong>{username}</strong> {caption}</h4>
-    </div>
+    <main className="grid grid-cols-1 md:grid-cols-2 md:max-w-2xl xl:max-w-5xl mx-auto mt-2">
+      <section className="col-span-2">
+        <Stories />
+        <Feeds />
+      </section>
+    </main>
   )
 }
 
